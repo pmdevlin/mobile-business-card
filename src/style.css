@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lobster&display=swap');
+*{
+  margin: 0;
+}
+.app {
+  height: 100%;
+  width: 100%;
+  background-color: #404854;
+  display: flex;
+  justify-content: center;
+}
+.container{
+width:  24rem; 
+border-radius: 25px;
+background-color: #313639;
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
+}
+
+.pic{
+  height:50vh;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-bottom: 10px; 
+}
+.name{
+  font-family: 'Inter', sans-serif;
+  color: #f8f8ff;
+  margin-bottom: .5rem;
+}
+.job{
+  font-family: 'Inter', sans-serif;
+  color: #61DBFB;
+ margin-bottom: 1rem;
+}
+.btnDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+
+/* buttons for links */
+
+.btnEmail, .btnLinkedin {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 10px;
+  background: grey;
+  box-shadow: 0 0 10px #61DBFB;
+}
+.btnLinkedin:hover {
+  box-shadow:  0 0 10px whitesmoke;
+}
+.btnEmail{
+  margin-right: 4rem;
+}
+.btnEmail:hover {
+  box-shadow:  0 0 10px whitesmoke;
+}
+
+
+.main{
+  border-radius: 25px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+}
+.aboutTitle {
+  color: #f8f8ff;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.interestsTitle {
+  color: #f8f8ff;
+  margin: 20px;
+  
+  margin-bottom: 5px;
+}
+.aboutText{
+  color: #f8f8ff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+}
+.interestsText{
+  color: #f8f8ff;
+  margin: 20px;
+  margin-top: 0;
+  /* margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 20px; */
+}
+.qrContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  color:honeydew;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+
+
+
+
+
