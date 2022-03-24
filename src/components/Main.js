@@ -14,7 +14,7 @@ export default function Main(){
            <h2 className="interestsTitle">Interests</h2>
            <p className="interestsText"> Software Engineering. Game programing and design. Financial study. Reader. Golfing enthusiast. Anything water related.</p>
            <div className="qrContainer">
-               <h3>Linkedin QRcode </h3>
+               <h3 className="QRtitle">Linkedin QRcode </h3>
                <img className="qrCode" src={QrCode} alt=""/>
            </div>
         </div>

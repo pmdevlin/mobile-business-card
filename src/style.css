@@ -51,7 +51,10 @@ background-color: #313639;
 
 /* buttons for links */
 
-.btnEmail, .btnLinkedin {
+.btnGithub, .btnLinkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 8rem;
   height: 3rem;
   border-radius: 10px;
@@ -61,13 +64,16 @@ background-color: #313639;
 .btnLinkedin:hover {
   box-shadow:  0 0 10px whitesmoke;
 }
-.btnEmail{
+.btnGithub{
   margin-right: 4rem;
+
 }
-.btnEmail:hover {
+.btnGithub:hover {
   box-shadow:  0 0 10px whitesmoke;
 }
-
+.github, .linkedin {
+  color: #313639;
+}
 
 .main{
   border-radius: 25px;
@@ -105,6 +111,9 @@ background-color: #313639;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.QRtitle{
+  color: #61DBFB; 
 }
 
 .footer{
