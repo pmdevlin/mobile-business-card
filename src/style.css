@@ -115,6 +115,9 @@ background-color: #313639;
 .QRtitle{
   color: #61DBFB; 
 }
+.qrCode { 
+  width: 20rem;
+}
 
 .footer{
   color:honeydew;
