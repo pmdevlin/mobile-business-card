@@ -12,9 +12,10 @@ export default function Main(){
                and more than willing to go down any rabbit hole with most technology's. 
            </p>
            <h2 className="interestsTitle">Interests</h2>
-           <p className="interestsText">Gaming design. Financial study. Reader. Golfing enthusiast. Anything water related.</p>
+           <p className="interestsText"> Software Engineering. Game programing and design. Financial study. Reader. Golfing enthusiast. Anything water related.</p>
            <div className="qrContainer">
-               <img ClassName="qrCode" src={QrCode}/>
+               <h3>Linkedin QRcode </h3>
+               <img className="qrCode" src={QrCode} alt=""/>
            </div>
         </div>
         

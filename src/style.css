@@ -102,7 +102,9 @@ background-color: #313639;
 }
 .qrContainer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .footer{
